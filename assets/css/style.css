@@ -31,5 +31,35 @@ h1{
 }
 
 .box-input{
+display: flex;
+width: 100%;
+justify-content: center;
+}
 
+.input-url{
+  padding: 12px 20px;
+  text-align: center;
+  outline: transparent;
+  width: 40%; 
+  border-radius: 5px;
+  font-size: 20px;
+  color: #1e272e;
+}
+
+.btn{
+  padding: 15px 20px;
+  width: 170px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #FFD32A;
+  font-size: 20px;
+  color: #1e272e;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transition: 3s;
+  background-color: #cfab18;
+   
+  cursor: pointer;
 }
