@@ -17,3 +17,10 @@ function copiar(){
 
   alert(`URL copiada : ${inputUrl.value}`);
 }
+
+//dados
+
+let linkRequest = {
+  description: url, 
+  domain: {fullName: 'rebrand.ly'}
+}
