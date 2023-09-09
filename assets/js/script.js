@@ -18,6 +18,14 @@ function copiar(){
   alert(`URL copiada : ${inputUrl.value}`);
 }
 
+//df39c3b1631648b49a62ce1394d57992
+
+//headers
+let headers = {
+  "Content-Type": "application",
+  "apikey": "df39c3b1631648b49a62ce1394d57992"
+}
+
 //dados
 
 let linkRequest = {
