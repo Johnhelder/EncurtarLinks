@@ -32,3 +32,9 @@ let linkRequest = {
   description: url, 
   domain: {fullName: 'rebrand.ly'}
 }
+
+fetch("https://api.rebrandly.com/vl/link",{
+  method: "POST",
+  headers: headers,
+  body: JSON.stringify(linkRequest)
+})
